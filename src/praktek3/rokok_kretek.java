@@ -6,4 +6,14 @@ public class rokok_kretek extends rokok_filter{
         void throttle (){
         System.out.println("sssstttt.....");
         }
+
+    public String getJenisfilter() {
+        return jenisfilter;
+    }
+
+    public void setJenisfilter(String jenisfilter) {
+        this.jenisfilter = jenisfilter;
+    }
+        
+        
 }
