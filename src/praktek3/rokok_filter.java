@@ -1,9 +1,9 @@
 package praktek3;
 
 public class rokok_filter {
-    String merk;
-    String warna;
-    double harga;
+    private String merk;
+    private String warna;
+    private double harga;
     
     void cetakInfo(){
         System.out.println("merk \t: "+merk+"\n"+
