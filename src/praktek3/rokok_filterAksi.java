@@ -8,5 +8,11 @@ public class rokok_filterAksi {
         f.setHarga(20000);
         
         f.cetakInfo();
+        System.out.print("merknya \t: ");
+        System.out.println(f.getMerk());
+        System.out.print("warnanya \t: ");
+        System.out.println(f.getWarna());
+        System.out.print("harganya \t: ");
+        System.out.println(f.getHarga());
     } 
 }
